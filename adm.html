@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Administrativo</title>
+    <link rel="stylesheet" href="adm.css">
+</head>
+    <body>
+
+        <header>
+            <h1>Painel de Administração</h1>  
+        </header>
+
+        <main>
+
+            <div id="buttons">
+                <button class="admButtons">Perguntas com respostas</button>
+                <button class="admButtons">Perguntas sem respostas</button>
+                <button class="admButtons">Perguntas excluidas</button>
+            </div>
+
+            <div class="painelAdm" id="painelPerguntasSemRespostas">   
+
+                <ol>
+                    <li>
+                        <div class="perguntaAluno">
+                            <b>Pergunta do Aluno</b>   
+                        </div>
+                        <div class="dadosAlunos">
+                            <p>Nome do aluno</p> <p>|</p> <p>Data da pergunta</p>
+                        </div>
+                        <div class="editButtons">
+                            <button class="editarButton">Editar</button> 
+                            <button class="excluirButton">Excluir</button>
+                        </div>
+                        <div>
+                            <input id="resposta" type="text" value="resposta">
+                        </div>
+                        <div class="visualizarDiv">
+                            <button class="visualizarButton">Visualizar</button>
+                        </div>
+                    </li>
+                </ol>   
+
+            </div>
+
+            <div class="painelAdm" id="painelPerguntasComRespostas">   
+
+                <ol>
+                    <li>
+                        <div>
+                            <img src="imagens/circulo-branco.png" alt="circulo-branco" width="50px">
+                            <b>Pergunta do Aluno</b>
+                            <p>Nome do aluno</p> <p>Data da pergunta</p>
+                        </div>
+                        <div>
+                            <button>Editar</button>
+                            <button>Excluir</button>
+                        </div>
+                        <div>
+                            <input id="resposta" type="text" value="resposta">
+                        </div>
+                        <div>
+                            <button>Visualizar</button>
+                        </div>
+                    </li>
+                </ol>   
+
+            </div>
+
+            <div class="painelAdm" id="painelPerguntasExcluidas">   
+
+                <ol>
+                    <li>
+                        <div>
+                            <img src="imagens/circulo-branco.png" alt="circulo-branco" width="50px">
+                            <b>Pergunta do Aluno</b>
+                            <p>Nome do aluno</p> <p>Data da pergunta</p>
+                        </div>
+                        <div>
+                            <button>Editar</button>
+                            <button>Excluir</button>
+                        </div>
+                        <div>
+                            <input id="resposta" type="text" value="resposta">
+                        </div>
+                        <div>
+                            <button>Visualizar</button>
+                        </div>
+                    </li>
+                </ol>   
+
+            </div>
+
+        </main>
+
+    </body>
+</html>

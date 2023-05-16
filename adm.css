@@ -1,0 +1,162 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+
+
+header {
+height: 15vh;
+min-height: 135px;
+width: 100%;
+background-color: #CA4F49;
+display: flex;
+justify-content: center;
+align-items: center;
+text-transform: uppercase;
+font-family: 'Roboto', sans-serif;
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+body {
+background-color: #FFFF;
+}
+
+main {
+background-color: #ECEBEB;
+height: 100%;
+margin: 20px;
+border-radius: 20px;
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#buttons{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.admButtons{  
+margin: 20px;
+border: none;
+border-radius: 20px;
+padding: 10px;
+text-transform: uppercase;
+background-color: #D9D9D9;   
+box-shadow: -2px -2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.admButtons:hover{
+    background-color: #CA4F49;
+    border: none;
+    color: #D9D9D9;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+ol{
+list-style: none;
+}
+
+.painelAdm{
+    background-color: #D9D9D9;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 30vh;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    
+}
+
+.perguntaAluno{
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.editButtons{
+float: right;
+display: flex;
+justify-content: flex-end;
+margin-left: 1000px;
+padding-right: 20px;
+}
+
+.editarButton{
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color:#44BC5F;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    box-shadow: -2px -2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.excluirButton{
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color:#b9251e;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    box-shadow: -2px -2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.visualizarDiv{
+float: right;
+display: flex;
+justify-content: flex-end;
+padding-right: 36px;
+padding-top: 10px;
+margin-left: 970px;
+}
+
+.visualizarButton{
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color:#181616;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    box-shadow: -2px -2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.dadosAlunos{
+    padding: 3px;
+    margin-left: 56px;
+    display: flex;
+    font-size: 10px;
+    font-family: 'Robot', sans-serif;
+    color: gray;
+}
+
+b{
+    padding-top: 15px;
+    padding-left: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;   
+}
+
+#resposta{
+    margin-left: 20px;
+    margin-right: 10px;
+    padding: 20px;
+    border: none;
+    width: 98%;
+    height: 135px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+
+
+
